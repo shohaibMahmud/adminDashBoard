@@ -46,3 +46,67 @@ ul{
 .menu{
     margin-bottom: 40px;
 }
+.title-bar, .menu-bar{
+    padding: 10px 100px 0px 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    font-weight: 600;
+}
+.search-bar, .menu-profile{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.search-bar button{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.search-bar img{
+    height: 20px;
+    width: auto;
+}
+input{
+    border-radius: 12px;
+    width: 500px;
+    height: 24px;
+    border: none;
+    background-color: #e2e8f0;
+}
+.profile, .menu-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.noti-logo{
+    height: 1.0rem;
+    width: auto;
+}
+.profile-pic{
+    height: 3.0rem;
+    width: auto;
+}
+.menu-bar{
+    padding-bottom: 10px;
+}
+.menu-profile img{
+    height: 4.0rem;
+    width: auto;
+}
+.menu-profile span{
+    font-size: 80%;
+}
+.menu-buttons button{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #0284c7;
+    color: whitesmoke;
+}
+.content{
+    background-color: #e2e8f0;
+}
