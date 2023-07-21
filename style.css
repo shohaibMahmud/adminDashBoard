@@ -152,7 +152,9 @@ h3{
     margin-bottom: 4px;
 }
 .proj-icon{
-    text-align: right;
+    justify-self: end;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
 }
 .proj-icon img{
     height: 20px;
@@ -167,7 +169,7 @@ h3{
 .announcement-wrapper, .trending-wrapper{
     background-color: white;
     border-radius: 12px;
-    padding: 30px 30px 30px 30px;
+    padding: 30px;
 }
 .announcement-wrapper p{
     padding: 20px 5px;
@@ -201,13 +203,3 @@ a{
     height: 14px;
     background-color: teal;
 }
-/*
-.trending{
-    display: grid;
-}
-.announcement-wrapper div{
-    padding: 20px 5px;
-}
-.announcement-wrapper div:not(:last-child){
-    border-bottom: 1px solid gray;
-}*/
